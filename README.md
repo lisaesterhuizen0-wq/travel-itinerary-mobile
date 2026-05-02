@@ -24,7 +24,7 @@ Open `index.html` in any browser, or visit the live demo link above.
 
 ## Notes
 
-The page references a fictional traveller ("Anya Sharma") because that was the bootcamp persona. Real-name sanitisation is on the polish list for a future iteration.
+The traveller is shown as `Sample Traveller` and the trip data is placeholder. Swap them in the config block near the top of `index.html` to retarget to a real trip.
 
 ---
 

@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"/>
-<title>Sample Traveller — Travel Itinerary Oct 1–7</title>
+<title>Sample Traveller: Travel Itinerary Oct 1-7</title>
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet"/>
 <style>
@@ -158,7 +158,7 @@ const DAYS = [
   {
     day:2,label:"Day 2",date:"Wed, Oct 2",city:"New York City",emoji:"🗽",tag:"Full Day NYC",
     schedule:[
-      {time:"07:00",label:"Hotel breakfast",icon:"☕",type:"dining",detail:"Hyatt buffet (6:30–10:00 AM)"},
+      {time:"07:00",label:"Hotel breakfast",icon:"☕",type:"dining",detail:"Hyatt buffet (6:30-10:00 AM)"},
       {time:"08:30",label:"Uber to meeting",icon:"🚗",type:"transport",detail:"~15 min to 1 World Trade Center"},
       {time:"09:00",label:"Meeting: Investor Briefing",icon:"💼",type:"work",detail:"TechVentures NYC Office\n1 World Trade Center",hl:true},
       {time:"11:00",label:"Meeting: Partnership Discussion",icon:"💼",type:"work",detail:"WeWork, 85 Broad St",hl:true},
@@ -190,7 +190,7 @@ const DAYS = [
       {time:"11:00",label:"Meeting: UK Investor",icon:"💼",type:"work",detail:"Mayfair office · Walking distance",hl:true},
       {time:"13:00",label:"Business lunch",icon:"🍽️",type:"dining",detail:"Mayfair area"},
       {time:"14:30",label:"Meeting: Strategic Partner",icon:"💼",type:"work",detail:"Soho",hl:true},
-      {time:"16:30",label:"LEISURE: British Museum / Hyde Park",icon:"🎭",type:"leisure",detail:"Culture or fresh air — your choice (~1.5h)",hl:true},
+      {time:"16:30",label:"LEISURE: British Museum / Hyde Park",icon:"🎭",type:"leisure",detail:"Culture or fresh air, your choice (~1.5h)",hl:true},
       {time:"18:30",label:"Return to hotel · Freshen up",icon:"🏨",type:"hotel"},
       {time:"19:30",label:"DINNER: Pavyllon London",icon:"🍽️",type:"dining",detail:"Four Seasons Hotel, Park Lane\nFrench fine dining by Yannick Alléno\nAdjacent to hotel · ~5 min walk",hl:true},
       {time:"22:00",label:"Walk back to hotel",icon:"🚶",type:"transport"},
@@ -222,7 +222,7 @@ const DAYS = [
       {time:"14:00",label:"LEISURE: Museum Island",icon:"🎭",type:"leisure",detail:"Pergamon Museum or Altes Museum (~2.5h)",hl:true},
       {time:"17:00",label:"Return to hotel · Pack",icon:"🏨",type:"hotel"},
       {time:"18:30",label:"Light dinner near Alexanderplatz",icon:"🍽️",type:"dining"},
-      {time:"21:00",label:"Early night — early flight tomorrow",icon:"😴",type:"rest"},
+      {time:"21:00",label:"Early night, early flight tomorrow",icon:"😴",type:"rest"},
     ]
   },
   {
@@ -233,7 +233,7 @@ const DAYS = [
       {time:"07:00",label:"Drive to BER · Hertz drop-off",icon:"🚗",type:"transport",detail:"~20 min to airport"},
       {time:"08:05",label:"Arrive BER Terminal 1",icon:"✈️",type:"flight",detail:"United check-in & lounge"},
       {time:"10:05",label:"DEPART: United via Frankfurt",icon:"✈️",type:"flight",detail:"BER → FRA → SFO · Business Class · ~13h total",hl:true},
-      {time:"15:30",label:"Arrive SFO — Welcome home!",icon:"✈️",type:"flight",detail:"Same day (PT)",hl:true},
+      {time:"15:30",label:"Arrive SFO. Welcome home!",icon:"✈️",type:"flight",detail:"Same day (PT)",hl:true},
       {time:"16:00",label:"Blacklane sedan → Home",icon:"🚗",type:"transport"},
     ]
   },
@@ -241,8 +241,8 @@ const DAYS = [
 
 const CONTACTS = [
   {name:"Lisa Myburgh",role:"Executive Assistant",phone:null,email:"assistant@example.com"},
-  {name:"Regal Wings — Regina",role:"Travel Agent (Primary)",phone:"+18008773552",display:"+1 800-877-3552"},
-  {name:"Travel Pro's — Tom",role:"Travel Agent (Backup)",phone:"+18003427521",display:"+1 800-342-7521"},
+  {name:"Regal Wings (Regina)",role:"Travel Agent (Primary)",phone:"+18008773552",display:"+1 800-877-3552"},
+  {name:"Travel Pro's (Tom)",role:"Travel Agent (Backup)",phone:"+18003427521",display:"+1 800-342-7521"},
   {name:"Hertz Gold Support",role:"Car Rental",phone:"+18006543131",display:"+1 800-654-3131"},
   {name:"Blacklane 24/7",role:"Chauffeur Service",phone:"+18443252526",display:"+1 844-325-2526"},
 ];
@@ -277,7 +277,7 @@ function render() {
     <div class="header">
       <div class="header-eyebrow">Travel Itinerary</div>
       <div class="header-name">Sample Traveller</div>
-      <div class="header-route">Oct 1–7, 2024 · SFO → NYC → LDN → BER → SFO</div>
+      <div class="header-route">Oct 1-7, 2024 · SFO → NYC → LDN → BER → SFO</div>
     </div>
 
     <div class="day-selector" id="daySelector">
